@@ -3,7 +3,7 @@ import scala.concurrent._
 import duration._
 
 // To be hidden!!
-trait SchedulerImpl { //Verificare se esiste qualche shortcut built in in akka adesso
+trait SchedulerImpl {
 	self: Actor =>
 	import context.dispatcher
 
